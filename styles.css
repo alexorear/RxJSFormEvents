@@ -1,0 +1,47 @@
+*:focus {
+	outline: none;
+}
+
+html {
+	font-family: sans-serif;
+}
+
+body {
+	align-items: center;
+	background: #ffe8aa;
+	display: flex;
+	justify-content: center;
+	padding-top: 4rem;
+}
+
+input:not(:last-of-type){
+	border: none;
+	height: 1.25rem;
+	margin-top: .5rem;
+	width: 150px;
+}
+
+#submit {
+	border: none;
+	border-radius: none;
+	box-shadow: 2px 2px 4px #a3dded;
+	height: 2rem;
+	font-size: 16px;
+	margin-top: 2rem;
+}
+
+.label:not(:first-of-type) {
+	margin-top: 2rem;
+}
+
+.form-container {
+	background: #d1f5ff;
+	box-shadow: 2px 2px 8px #d3b465;
+	padding: 2rem;
+	width: 150px;
+}
+
+.label {
+	display: block;
+	font-weight: 500;
+}

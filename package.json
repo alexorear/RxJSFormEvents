@@ -2,13 +2,17 @@
   "name": "rxjs_examples",
   "version": "1.0.0",
   "description": "A short collection of rxjs examples/samples for a informal demistration.",
-  "main": "main.js",
+  "private": true,
   "scripts": {
-    "test": "npm test"
+    "build": "webpack"
   },
   "author": "Alex Orear",
   "license": "ISC",
   "dependencies": {
     "rxjs": "^6.3.3"
+  },
+  "devDependencies": {
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2"
   }
 }

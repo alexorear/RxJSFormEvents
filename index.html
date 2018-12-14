@@ -8,12 +8,16 @@
 	<body>
 		<div class="form-container">
 			<form>
-				<span class="label">Username:</span>
-				<input type="text" name="username" id="username"><br>
+				<span class="label">Email:</span>
+				<input type="text" id="email"><br>
+				<span class="message" id="email-message"></span>
 				<span class="label">Password:</span>
 				<input type="password" name="password" id="password"><br>
-				<input type="submit" name="submit" id="submit">
+				<span class="message" id="password-message"></span>
+				<span class="label">Message:</span>
+				<textarea rows="4" cols="24" id="message"></textarea>
 			</form>
+			<button id="submitBtn">Submit</button>
 		</div>
 		<script src="dist/main.js"></script>
 	</body>

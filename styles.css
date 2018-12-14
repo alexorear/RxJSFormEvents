@@ -14,14 +14,22 @@ body {
 	padding-top: 4rem;
 }
 
-input:not(:last-of-type){
-	border: none;
+input {
 	height: 1.25rem;
-	margin-top: .5rem;
 	width: 150px;
 }
 
-#submit {
+textarea, input {
+	border: none;
+	background: #ffe8aa;
+}
+
+span {
+	min-height: 1.25rem;
+}
+
+#submitBtn {
+	background: #ffe8aa;
 	border: none;
 	border-radius: none;
 	box-shadow: 2px 2px 4px #a3dded;
